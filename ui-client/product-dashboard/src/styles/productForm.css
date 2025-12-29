@@ -1,0 +1,88 @@
+.product-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.product-form-container h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-form input,
+.product-form select,
+.product-form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.product-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/* BUTTON */
+
+
+.product-form button:hover {
+  background-color: #1a68d1;
+}
+.product-form button {
+  padding: 10px 18px;
+  background-color: #2c7be5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.product-form button:disabled {
+  background: #9ec5fe;
+  cursor: not-allowed;
+}
+
+.secondary-btn {
+  padding: 10px 18px;
+  background-color: #2c7be5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.error-banner {
+  background: #ffe2e2;
+  color: #b00020;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.image-preview {
+  max-height: 180px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  padding: 6px;
+  border-radius: 4px;
+}

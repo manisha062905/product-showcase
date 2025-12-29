@@ -1,0 +1,144 @@
+.products-container {
+    padding: 20px;
+    overflow: visible;
+}
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.products-header h2 {
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.category-select {
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.primary-btn {
+    background: #2563eb;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    overflow: visible;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: visible; /* 🔥 REQUIRED */
+}
+.card-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 10px 0 10px;
+}
+
+.card-bottom {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.product-info {
+    padding: 12px;
+}
+
+.product-info h4 {
+    margin: 0;
+}
+
+.category {
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px;
+}
+
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.pagination button {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+}
+
+.pagination button:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    font-weight: 500;
+}
+
+
+
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background 0.2s;
+  background: #2563eb;
+  color: white;
+  width: 60px;
+}
+
+.action-btn:hover { background: #f3f4f6; }
+.action-btn.delete:hover { background: #fee2e2; }
