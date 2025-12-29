@@ -5,7 +5,7 @@ A full-stack application for managing and displaying products with categories.
 ## Tech Stack
 
 - **Backend**: Django 3.2 + Django REST Framework
-- **Frontend**: Angular 18
+- **Frontend**: React
 - **Database**: SQLite (development)
 
 ## Quick Start
@@ -31,13 +31,10 @@ python manage.py seed_data
 python manage.py runserver
 
 # Frontend setup (in new terminal)
-cd ui-client
-
-# if you prefer angular 
-cd product-dashboard-angular
+cd ui-clien
 
 # if you prefer react
-cd product-dashboard-react
+cd product-dashboard
 
 # then run the following commands (same commands for either framework version)
 npm install
